@@ -1,0 +1,51 @@
+[
+  {
+    "path": "/",
+    "component": "D:\\\\Selly\\\\realworld-Selly\\\\pages\\\\layout",
+    "children": [
+      {
+        "path": "",
+        "name": "home",
+        "component": "D:\\\\Selly\\\\realworld-Selly\\\\pages\\\\home",
+        "_name": "_66804110"
+      },
+      {
+        "path": "/login",
+        "name": "login",
+        "component": "D:\\\\Selly\\\\realworld-Selly\\\\pages\\\\login",
+        "_name": "_69c02958"
+      },
+      {
+        "path": "/register",
+        "name": "register",
+        "component": "D:\\\\Selly\\\\realworld-Selly\\\\pages\\\\login",
+        "_name": "_69c02958"
+      },
+      {
+        "path": "/profile/:username",
+        "name": "profile",
+        "component": "D:\\\\Selly\\\\realworld-Selly\\\\pages\\\\profile",
+        "_name": "_58fbf850"
+      },
+      {
+        "path": "/settings",
+        "name": "settings",
+        "component": "D:\\\\Selly\\\\realworld-Selly\\\\pages\\\\settings",
+        "_name": "_2dfe87d4"
+      },
+      {
+        "path": "/editor",
+        "name": "editor",
+        "component": "D:\\\\Selly\\\\realworld-Selly\\\\pages\\\\editor",
+        "_name": "_7c8db544"
+      },
+      {
+        "path": "/article/:slug",
+        "name": "article",
+        "component": "D:\\\\Selly\\\\realworld-Selly\\\\pages\\\\article",
+        "_name": "_8b6771b6"
+      }
+    ],
+    "_name": "_64f001ca"
+  }
+]
