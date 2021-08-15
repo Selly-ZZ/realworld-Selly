@@ -25,8 +25,8 @@ export const addFavorite = (slug) => {
     url: `/api/articles/${slug}/favorite`,
   })
 }
-//取消点赞
 
+//取消点赞
 export const deleteFavorite = (slug) => {
   return request({
     method: 'DELETE',
@@ -49,3 +49,46 @@ export const getComments = (slug) => {
     url: `/api/articles/${slug}/comments`,
   })
 }
+
+//发表文章
+export const createArticle = (data) => {
+  return request({
+    method: 'POST',
+    url: '/api/articles',
+    data,
+  })
+}
+
+//更新文章
+export const updateArticle = ({ slug, data }) => {
+  return request({
+    method: 'PUT',
+    url: `/api/articles/${slug}`,
+    data,
+  })
+}
+
+//删除文章
+export const deleteArticle = (slug) => {
+  return request({
+    method: 'DELETE',
+    url: `/api/articles/${slug}`,
+  })
+}
+
+//添加文章评论
+export const addComments = ({ slug, data }) => {
+  return request({
+    method: 'POST',
+    url: `/api/articles/${slug}/comments`,
+    data,
+  })
+}
+
+//获取comments
+// export const getComments = (slug) => {
+//   return request({
+//     method: 'GET',
+//     url: `/api/articles/${slug}/comments`,
+//   })
+// }

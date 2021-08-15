@@ -84,6 +84,9 @@
 <script>
 export default {
   middleware: ['authenticated'],
+  created() {
+    console.log(this.$store.state.user)
+  },
 }
 </script>
 
